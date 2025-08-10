@@ -1,0 +1,33 @@
+{
+  "name": "optimized-leaderboard-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/appu900/Optimized-Leaderboard-system.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/appu900/Optimized-Leaderboard-system/issues"
+  },
+  "homepage": "https://github.com/appu900/Optimized-Leaderboard-system#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.17.1",
+    "node-cron": "^4.2.1",
+    "nodemon": "^3.1.10",
+    "redis": "^5.8.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/jsonwebtoken": "^9.0.10"
+  }
+}
